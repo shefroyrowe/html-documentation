@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif; 
+    font-size: 16px;
+    background-color: #f9f2f4;
+    color: #000;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  
+  header {
+    font-size: 1.3em;
+    font-weight: 800;
+    border-bottom: 1px solid #5fb0e4;
+    padding: 0.5em;
+    margin: 1em;
+    text-align: center;
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 17em;
+    min-width: 17em;
+    height: 100%;
+    border-right: 2px solid black;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  #navbar ul li {
+    list-style: none;
+    font-size: 1.1em;
+  }
+  
+  #navbar ul a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    width: 100%;
+    color: #011f41;
+  }
+  
+  #navbar ul li:hover {
+    background-image: linear-gradient(65deg,#1270e3, #c7254e);
+  }
+  
+  #navbar ul li>a:hover {
+    color: #ebebeb;
+  }
+  
+  #main-doc {
+    margin-left: 18em;
+    margin-top: 3.1em;
+    padding: 0 2em;
+  }
+  
+  section {
+    margin: 0 auto;
+  }
+  
+  h3 {
+    color: #011f41;
+  }
+  
+  code, .lightgray {
+    background-color: lightgray;
+  }
+  
+  .try-it {
+    text-decoration: none;
+    display: block;
+    margin-top: 2em;
+    padding: 1em; 
+    text-align: center;
+    background-image: linear-gradient(65deg,#1270e3, #c7254e);
+    color: #ebebeb;
+  }
+  
+  #source-link {
+    margin: 2em auto;
+    text-align: center;
+  }
+  
+  #source-link a {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: green;
+  }
+  
+  #table {
+    border-bottom: 4px double #1270e3;
+  }
+  
+  /*cosmetic classes*/
+  .red {
+    color: red;
+  }
+  
+  .brown {
+    color: brown;
+  }
+  
+  .blue {
+    color: mediumblue;
+  }
+  
+  .lightblue {
+    color: lightblue;
+  }
+  
+  #absolute-url {
+    word-wrap: break-word;
+  }
+  
+  .circles {
+    list-style: circle;
+  }
+  /*end of cosmetic classes*/
+  
+  @media screen and (max-width: 900px) {
+      #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 30%;
+    border: none;
+    border-bottom: 2px solid black;
+    overflow-y: scroll;
+    background-color: #ffffff;
+  }
+  
+  #main-doc {
+    margin: 12em auto 0;
+  }
+  }
+  

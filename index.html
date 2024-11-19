@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Technical Documentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+      <header>HTML Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#What_is_HTML?">What is HTML?</a></li>
+        <li><a class="nav-link" href="#HTML_Basic_Examples">HTML Basic Examples</a></li>
+        <li><a class="nav-link" href="#HTML_Elements">HTML Elements</a></li>
+        <li><a class="nav-link" href="#HTML_Attributes">HTML Attributes</a></li>
+        <li><a class="nav-link" href="#Quotation_and_Citation_Elements">Quotation and Citation Elements</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="What_is_HTML?">
+        <header>What is HTML?</header>
+          <article>
+        <p>HTML stands for Hyper Text Markup Language</p>
+<p>HTML is the standard markup language for creating Web pages</p>
+<p>HTML describes the structure of a Web page</p>
+<p>HTML consists of a series of elements</p>
+<p>HTML elements tell the browser how to display the content</p>
+<p>HTML elements label pieces of content such as "<i>this is a heading</i>", "<i>this is a paragraph</i>", "<i>this is a link</i>", etc.</p>
+
+<fieldset>
+<legend>A Simple HTML Document Example</legend>
+<code>
+<div>
+ <span class="brown"><span  class="blue">&lt;</span>!DOCTYPE<span class="red"> html</span><span  class="blue">&gt;</span></span><br>
+<span class="brown"><span  class="blue">&lt;</span>html<span class="blue">&gt;</span></span><br><span  class="brown"><span  class="blue">&lt;</span>head<span  class="blue">&gt;</span></span><br><span class="brown"><span  class="blue">&lt;</span>title<span  class="blue">&gt;</span></span>Page Title<span  class="brown"><span  class="blue">&lt;</span>/title<span class="blue">&gt;</span></span><br>
+ <span class="brown"><span  class="blue">&lt;</span>/head<span class="blue">&gt;</span></span><br>
+<span class="brown"><span  class="blue">&lt;</span>body<span class="blue">&gt;</span></span><br><br><span class="brown"><span class="blue">&lt;</span>h1<span class="blue">&gt;</span></span>My First Heading<span  class="brown"><span  class="blue">&lt;</span>/h1<span class="blue">&gt;</span></span><br><span class="brown"><span  class="blue">&lt;</span>p<span class="blue">&gt;</span></span>My first paragraph.<span  class="brown"><span  class="blue">&lt;</span>/p<span class="blue">&gt;</span></span><br><br>
+    <span class="brown"><span class="blue">&lt;</span>/body<span class="blue">&gt;</span></span><br><span class="brown"><span class="blue">&lt;</span>/html<span class="blue">&gt;</span></span>
+ </div>
+ <div>
+<a target="_blank" href="tryit.asp?filename=tryhtml_intro" class="try-it">Try it Yourself @ w3schools</a>
+</div>
+</code>
+</fieldset>
+<fieldset>
+  <legend>Example Explained</legend>
+  <ul class="circles">
+<li>The <code class="red">&lt;!DOCTYPE html&gt;</code> declaration defines 
+that this document is an HTML5 document</li>
+<li>The <code class="red">&lt;html&gt;</code> element is the root element of an HTML 
+page</li>
+ <li>The <code class="red">&lt;head&gt;</code> element contains meta information about the 
+ HTML page</li>
+ <li>The <code class="red">&lt;title&gt;</code> element specifies a title for the 
+ HTML page (which is shown in the browser's title bar or in the page's tab)</li>
+ <li>The <code class="red">&lt;body&gt;</code> element defines the 
+ document's body, and is a container for all the visible contents, such as 
+ headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>
+ <li>The <code class="red">&lt;h1&gt;</code> element defines a large heading</li>
+ <li>The <code class="red">&lt;p&gt;</code> element defines a paragraph</li>
+</ul>
+</fieldset>
+</article>
+      </section>
+      <section class="main-section" id="HTML_Basic_Examples">
+        <header>HTML Basic Examples</header>
+        <h3>HTML Documents</h3>
+        <p>All HTML documents must start with a document type declaration: <code class="red">&lt;!DOCTYPE html&gt;</code>.</p>
+        <p>The HTML document itself begins with <code class="red">&lt;html&gt;</code> and ends with <code class="red">&lt;/html&gt;</code>.</p>
+        <p>The visible part of the HTML document is between <code class="red">&lt;body&gt;</code> and <code class="red">&lt;/body&gt;</code>. </p>
+
+      <h3>The &lt;!DOCTYPE html&gt; Declaration</h3>
+
+<p>The <code class="red">&lt;!DOCTYPE&gt;</code> declaration represents the document type, and helps browsers to display web pages correctly.</p>
+<p>It must only appear once, at the top of the page (before any HTML tags). </p>
+<p>The <code class="red">&lt;!DOCTYPE&gt;</code> declaration is not case sensitive.</p>
+<p>The <code class="red">&lt;!DOCTYPE&gt;</code> declaration for HTML5 is: <code>
+  <span class="brown"><span class="blue">&lt;</span>!DOCTYPE<span class="red"> html</span><span class="blue">&gt;</span></span>
+</code></p>
+  
+  <h3>HTML Headings</h3>
+  <p>HTML headings are defined with the <code class="red">&lt;h1&gt;</code> to <code class="red">&lt;h6&gt;</code> tags.</p>
+  <p><code class="red">&lt;h1&gt;</code> defines the most important heading. <code class="red">&lt;h6&gt;</code> defines the least important 
+heading:&nbsp;</p>
+
+        <fieldset>
+          <legend>Example</legend>
+<code>
+<div>
+<span class="brown"><span class="blue">&lt;</span>h1<span class="blue">&gt;</span></span>This is heading 1<span class="brown"><span class="blue">&lt;</span>/h1<span class="blue">&gt;</span></span><br>
+<span class="brown"><span class="blue">&lt;</span>h2<span class="blue">&gt;</span></span>This is heading 2<span class="brown"><span class="blue">&lt;</span>/h2<span class="blue">&gt;</span></span><br>
+<span class="brown"><span class="blue">&lt;</span>h3<span class="blue">&gt;</span></span>This is heading 3<span class="brown"><span class="blue">&lt;</span>/h3<span class="blue">&gt;</span></span>
+ </div>
+ <div>
+<a target="_blank" href="tryit.asp?filename=tryhtml_basic_headings" class="try-it">Try it Yourself @ w3schools</a>
+</div>
+</code>
+        </fieldset>
+      </section>
+      <section class="main-section" id="HTML_Elements">
+        <header>HTML Elements</header>
+        <p>An HTML element is defined by a start tag, some content, and an end tag.</p>
+        <article>
+        <h3>HTML Elements</h3>
+        <p>The HTML element is everything from the start tag to the end tag:</p>
+        <code>
+        <div style="font-size:20px;padding:10px;margin-bottom:10px;">
+<span class="red"><span class="lightblue">&lt;</span>tagname<span class="lightblue">&gt;</span></span>Content goes here...<span class="red"><span class="lightblue">&lt;</span>/tagname<span class="lightblue">&gt;</span></span>
+</div>
+</code>
+</article>
+<article>
+  <p id="center">Examples of some HTML elements:</p>
+  <table id="table">
+<tbody>
+  <tr>
+<th>Start tag</th>
+<th>Element content</th>
+<th>End tag</th>
+</tr>
+<tr class="lightgray">
+<td><span class="red">&lt;</span>h1<span class="red">&gt;</span></td>
+<td>My First Heading</td>
+<td><span class="red">&lt;/</span>h1<span class="red">&gt;</span></td>
+</tr>
+<tr>
+<td><span class="red">&lt;</span>p<span class="red">&gt;</span></td>
+<td>My first paragraph.</td>
+<td><span class="red">&lt;/</span>p<span class="red">&gt;</span></td>
+</tr>
+<tr class="lightgray">
+<td><span class="red">&lt;</span>br<span class="red">&gt;</span></td>
+<td><em>none</em></td>
+<td><em>none</em></td>
+</tr>
+</tbody>
+</table>
+
+<em>
+  <p><strong>Note:</strong> Some HTML elements have no content (like the &lt;br&gt; 
+element). These elements are called empty elements. Empty elements do not have an end tag!</p>
+</em>
+
+<h3>HTML is Not Case Sensitive</h3>
+<p>HTML tags are not case sensitive: <code class="red">&lt;P&gt;</code> means the same as <code class="red">&lt;p&gt;</code>.</p>
+
+<p>The HTML standard does not require lowercase tags, but W3C
+<b>recommends</b> lowercase in HTML, and <b>demands</b> lowercase for stricter document types like XHTML.</p>
+</article>
+      </section>
+      <section class="main-section" id="HTML_Attributes">
+        <header>HTML Attributes</header>
+        <p>HTML attributes provide additional information about HTML elements.</p>
+        <article>
+          <h3>HTML Attributes</h3>
+          <ul class="circles">
+  <li>All HTML elements can have <b>attributes</b></li>
+  <li>Attributes provide <b>additional information</b> about elements</li>
+  <li>Attributes are always specified in <b>the start tag</b></li>
+  <li>Attributes usually come in name/value pairs like: <b>name="value"</b></li>
+</ul>
+
+<h3>The href Attribute</h3>
+<fieldset>
+<legend>Example</legend>
+<code>
+<div>
+<span class="brown"><span class="blue">&lt;</span>a<span class="red"> href<span  class="blue">="https://www.w3schools.com"</span></span><span class="blue">&gt;</span></span>Visit W3Schools<span class="brown"><span class="blue">&lt;</span>/a<span class="blue">&gt;</span></span>
+ </div>
+ <div>
+<a target="_blank" href="tryit.asp?filename=tryhtml_attributes_link" class="try-it">Try it Yourself @ w3schols</a>
+</div>
+</code>
+</fieldset>
+        </article>
+        <article>
+          <h3>The src Attribute</h3>
+          <p>The <code class="red">&lt;img&gt;</code> tag is used to embed an 
+image in an HTML page. The <code class="red">src</code> attribute 
+specifies the path to the image to be displayed:</p>
+
+<fieldset>
+<legend>Example</legend>
+<code>
+<div>
+<span class="brown"><span class="blue">&lt;</span>img<span class="red"> src<span class="blue">="img_girl.jpg"</span></span><span class="blue">&gt;</span></span>
+ </div>
+ <div>
+<a class="try-it" href="tryit.asp?filename=tryhtml_attributes_img_src" target="_blank">Try it Yourself @ w3schools</a>
+</div>
+</code>
+</fieldset>
+        </article>
+        <article>
+          <p>There are two ways to specify the URL in the <code class="red">src</code> 
+attribute:</p>
+<p><strong>1. Absolute URL</strong> - Links to an external image that is hosted 
+on another website. Example: <span id="absolute-url">src="https://www.w3schools.com/images/img_girl.jpg"</span>.</p>
+<p><strong>Notes:</strong> External images might be under copyright. If you do 
+not get permission to use it, you may be in violation of copyright laws. In 
+addition, you cannot control external images; it can suddenly be removed or 
+changed.</p>
+<p><strong>2. Relative URL</strong> - Links to an image that is hosted within 
+the website. Here, the URL does not include the domain name. If the URL begins 
+without a slash, it will be relative to the current page. Example: src="img_girl.jpg". 
+If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".</p>
+<p><strong>Tip:</strong> It is almost always best to use relative URLs. They 
+will not break if you change domain.</p>
+        </article>
+      </section>
+      <section class="main-section" id="Quotation_and_Citation_Elements">
+        <header>Quotation and Citation Elements</header>
+<p>In this chapter we will go through the 
+<code class="red">&lt;blockquote&gt;</code>,<code class="red">&lt;q&gt;</code>, <code class="red">&lt;abbr&gt;</code>, <code class="red">&lt;address&gt;</code>, <code class="red">&lt;cite&gt;</code>, 
+and <code class="red">&lt;bdo&gt;</code> HTML elements.</p>
+
+<fieldset>
+<legend>Example</legend>
+<div>
+<p>Here is a quote from WWF's website:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+  For 60 years, WWF has worked to help people and nature thrive. As the world's 
+  leading conservation organization, WWF works in nearly 100 countries. At every 
+  level, we collaborate with people around the world to develop and deliver 
+  innovative solutions that protect communities, wildlife, and the places in 
+  which they live.</blockquote>
+</div>
+<div>
+<a class="w3-btn w3-margin-top w3-margin-bottom" href="tryit.asp?filename=tryhtml_formatting_intro2" target="_blank">Try it Yourself @ w3schools</a>
+</div>
+</fieldset>
+<h3>HTML &lt;blockquote&gt; for Quotations</h3>
+<p>The HTML <code class="red">&lt;blockquote&gt;</code> element defines a section that 
+is quoted from another source.</p>
+<p>Browsers usually indent <code class="red">&lt;blockquote&gt;</code> elements.</p>
+
+<fieldset>
+<legend>Example</legend>
+<code>
+<div>
+ <span class="brown"><span class="blue">&lt;</span>p<span class="blue">&gt;</span></span>Here is a quote from WWF's website:<span class="brown"><span class="blue">&lt;</span>/p<span class="blue">&gt;</span></span><br><span class="brown"><span class="blue">&lt;</span>blockquote<span class="red"> cite<span  class="blue">="http://www.worldwildlife.org/who/index.html"</span></span><span class="blue">&gt;</span></span><br>
+  For 60 years, WWF has worked to help people and nature thrive. As the world's 
+  leading conservation organization, WWF works in nearly 100 countries. At every 
+  level, we collaborate with people around the world to develop and deliver 
+  innovative solutions that protect communities, wildlife, and the places in 
+  which they live.<br><span class="brown"><span class="blue">&lt;</span>/blockquote<span class="blue">&gt;</span></span> </div>
+  <div>
+<a class="try-it" href="tryit.asp?filename=tryhtml_formatting_blockquote" target="_blank">Try it Yourself @ w3schools</a>
+</div>
+</code>
+</fieldset>
+      </section>
+      <div id="source-link"> <p>Source material all taken from <a href="https://www.w3schools.com/html/default.asp">w3schools</a> visit for more about HTML</p></div>
+    </main>
+  </body>
+</html>
